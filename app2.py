@@ -4,7 +4,6 @@ from flask import request
 
 app = flask.Flask(__name__)
 
-# Hardcoded credentials (security issue)
 USERNAME = "admin"
 PASSWORD = "password123"
 
